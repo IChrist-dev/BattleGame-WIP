@@ -1,0 +1,8 @@
+Occasionally I found in testing that the scanner-input spell-
+name would not be recognized. It was a bizarre error that I 
+spent multiple hours trying to trace. Ultimately I could find
+no probable cause in my own code so I could only determine that
+something is misfiring with the scanner class; that perhaps
+it was modifying the input string in an unpredictable way.
+This is a minute error as pretty much of the time the program
+runs flawlessly.
